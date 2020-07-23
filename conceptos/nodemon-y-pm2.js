@@ -14,3 +14,5 @@ console.log("another test");
 //Para Windows se debe correr npx pm2 start (n)
 //El comando pm2 monitor sirve para monitorear cómo va en producción algo
 //Para saber que tenemos o no tenemos corriendo lo vemos con pm2 status
+//Los logs no se muestran porque es una herramienta pra producción, para ver los logs es con pm2 logs
+//Para parar los procesos corriendo es con pm2 stop (n), n es para un archivo en específico, una ruta o con el id
